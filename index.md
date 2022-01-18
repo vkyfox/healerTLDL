@@ -1,6 +1,5 @@
 # TOO LONG ; DIDN'T LEVEL (UNDERSTANDING MY CO-HEALER)
 ### **SAGE** - SPELLS YOU NEED TO KNOW
--
 ---
 ![Kerachole](./kerachole.png "Kerachole_icon") ![Kerachole_buffs](./kerachole_buffs.png "Kerachole_buffs") [30s CD] **Kerachole** : 10% mitigation + low regen for 15s.
 
