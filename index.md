@@ -1,6 +1,6 @@
 # TOO LONG ; DIDN'T LEVEL (UNDERSTANDING MY CO-HEALER)
-### **SAGE** - SPELLS YOU NEED TO KNOW
----
+## **SAGE** - SPELLS YOU NEED TO KNOW
+
 ![Kerachole](./kerachole.png "Kerachole_icon") ![Kerachole_buffs](./kerachole_buffs.png "Kerachole_buffs") [30s CD] **Kerachole** : 10% mitigation + low regen for 15s.
 
 This is the staple for all raid damages, due to its double part regen, keep an eye out for it being used early before raid damage, as it can save you topping the group yourself.
