@@ -29,6 +29,7 @@ Much harder for you to keep track of, however you should keep it in in mind as i
 
 ## **SCHOLAR** - SPELLS YOU NEED TO KNOW
 > /!\ Under construction
+
 ## **ASTROLOGIAN** - SPELLS YOU NEED TO KNOW
 > /!\ Under construction
 
