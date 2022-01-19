@@ -26,3 +26,15 @@ Very useful for repeat mechanics, as above. Do not forget the healing part, as i
 ![Pneuma](./img/pneuma.png "Pneuma icon") [120s CD] **Pneuma** : High to Very High burst healing.
 
 Much harder for you to keep track of, however you should keep it in in mind as it comes to no DPS loss for the Sage and is *extremely* potent.
+
+## **SCHOLAR** - SPELLS YOU NEED TO KNOW
+
+## **ASTROLOGIAN** - SPELLS YOU NEED TO KNOW
+
+## **WHITE MAGE** - SPELLS YOU NEED TO KNOW
+
+# HOW TO PLAY AS A TEAM
+## GENERALITIES
+### Raises & Limit Break
+
+### Healing
