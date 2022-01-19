@@ -1,4 +1,4 @@
-# TOO LONG ; DIDN'T LEVEL (UNDERSTANDING MY CO-HEALER)
+# UNDERSTANDING MY CO-HEALER
 ## **SAGE** - SPELLS YOU NEED TO KNOW
 
 ![Kerachole](./img/kerachole.png "Kerachole_icon") ![Kerachole_buffs](./img/kerachole_buffs.png "Kerachole_buffs") [30s CD] **Kerachole** : 10% mitigation + low regen for 15s.
@@ -9,7 +9,7 @@ This is the staple for all raid damages, due to its double part regen, keep an e
 
 ![Physis II](./img/physis_II.png "Physis II icon") ![Physis II buffs](./img/physis_II_buffs.png "Physis II icon") [60s CD] **Physis II** : Medium regen for 15s + 10% *action* healing buff for 10s.
 
-Note the healing buff icon on the left, and the regen on the right. It being healing *action* potency buff, it will only affect GCD healing. Meaning, most of the time you can forget this part. The regen is definitely potent though, so keep an eye out for it as it will have around 25% uptime.
+Healing buff icon on the left, regen part on the right. It being healing *action* potency buff, it will only affect GCD healing, meaning most of the time you can forget this part. The regen is definitely potent however, so keep an eye out for it as it will have around 25% uptime.
 
 
 
