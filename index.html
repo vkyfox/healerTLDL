@@ -58,6 +58,11 @@
           <li><a class="d-inline-flex align-items-center rounded" href="#ast">Astrologian</a></li>
           <li><a class="d-inline-flex align-items-center rounded" href="#whm">White Mage</a></li>
           <li><a class="d-inline-flex align-items-center rounded" href="#group">Honorable mentions</a></li>
+          
+            <li><a class="d-inline-flex align-items-center rounded" href="#roleac">  Role actions</a></li>
+            <li><a class="d-inline-flex align-items-center rounded" href="#jobac">  Job specific actions</a></li>
+            <li><a class="d-inline-flex align-items-center rounded" href="#tinvuln">  Tank invulnerabilites</a></li>
+          
         </ul>
       </li>
       <li class="my-2">
@@ -80,6 +85,7 @@
           <li><a class="d-inline-flex align-items-center rounded" href="#lx_haction">Healing action</a></li>
           <li><a class="d-inline-flex align-items-center rounded" href="#lx_hability">Healing ability</a></li>
           <li><a class="d-inline-flex align-items-center rounded" href="#lx_prog">Progress</a></li>
+          <li><a class="d-inline-flex align-items-center rounded" href="#lx_enrage">Enrage</a></li>
         </ul>
       </li>
     </ul>
@@ -196,7 +202,7 @@
               The faerie will passively heal any party member who goes below 80% HP. She's easily distracted but she's trying her best. Should help in keeping the tanks afloat.
             </td></tr>
                         <tr>
-              <th scope="row"><img src="img/sch/seraph.png"/><img src="img/sch/seraph_whisper.png"/><img src="img/sch/seraph_consolation.png"/><img src="img/sch/seraph_illumination.png"/></th>
+              <th scope="row"><img src="img/sch/seraph.png"/><img src="img/sch/seraph_consolation.png"/><img src="img/sch/seraph_whisper.png"/><img src="img/sch/seraph_illumination.png"/></th>
               <td>120s</td>
               <td><strong>Seraph -</strong> Faerie adds a shield to all of her heals for 20s.</td>
             </tr>
@@ -230,7 +236,7 @@
             <tr>
               <th scope="row"><img src="img/sch/whisperingdawn.png"/><img src="img/sch/whisperingdawn_buff.png"/></th>
               <td>60s</td>
-              <td><strong>Whispering dawn -</strong> Low regen for 21s.</td>
+              <td><strong>Whispering dawn -</strong> Low <em>regen</em> for 21s.</td>
             </tr>
             <tr><td colspan="3">
               longdesc
@@ -276,7 +282,7 @@
             <tr>
               <th scope="row"><img src="img/ast/asphelios.png"/><img src="img/ast/asphelios_buff.png"></th>
               <td>60s</td>
-              <td><strong>Aspected Helios -</strong> <em>AoE regen</em>. </td>
+              <td><strong>Aspected Helios -</strong> <em>regen</em>. </td>
             </tr>
             <tr><td colspan="3">
               fulldesc
@@ -346,7 +352,7 @@
             <tr>
               <th scope="row"><img src="img/whm/medica2.png"/><img src="img/whm/medica2_buff.png"/></th>
               <td>none</td>
-              <td><strong>Medica II -</strong> <em>AoE Regen</em></td>
+              <td><strong>Medica II -</strong> Low heal and medium <em>regen</em> for 15s</td>
             </tr>
             <tr><td colspan="3">
               fulldesc
@@ -354,7 +360,7 @@
             <tr>
               <th scope="row"><img src="img/whm/cure3.png"/></th>
               <td>none</td>
-              <td><strong>Cure III -</strong> <em>AoE Regen</em></td>
+              <td><strong>Cure III -</strong> High burst healing</td>
             </tr>
             <tr><td colspan="3">
               fulldesc
@@ -362,7 +368,7 @@
             <tr>
               <th scope="row"><img src="img/whm/asylum.png"/><img src="img/whm/asylum_buff.png"/></th>
               <td>90s</td>
-              <td><strong>Asylum -</strong> shortdesc</td>
+              <td><strong>Asylum -</strong> <em>Ground-targeted AoE</em> granting low <em>regen</em> and 10% <em>healing action</em> buff for 24s</td>
             </tr>
             <tr><td colspan="3">
               longdesc
@@ -370,7 +376,7 @@
             <tr>
               <th scope="row"><img src="img/whm/temperance.png"/><img src="img/whm/temperance_buff.png"/></th>
               <td>120s</td>
-              <td><strong>Temperance -</strong> shortdesc</td>
+              <td><strong>Temperance -</strong> 10% <em>mitigation</em> for 20s</td>
             </tr>
             <tr><td colspan="3">
               longdesc
@@ -378,7 +384,7 @@
             <tr>
               <th scope="row"><img src="img/whm/lilybell.png"/></th>
               <td>180s</td>
-              <td><strong>Liturgy of the Bell -</strong> shortdesc</td>
+              <td><strong>Liturgy of the Bell -</strong> 5 times repeat high heal upon damage for 15s. Leftover heals trigger once timer expires.</td>
             </tr>
             <tr><td colspan="3">
               longdesc
@@ -386,7 +392,7 @@
             <tr>
               <th scope="row"><img src="img/whm/bene.png"/></th>
               <td>180s</td>
-              <td><strong>Benediction -</strong> shortdesc</td>
+              <td><strong>Benediction -</strong> Single-target heal for 100% of the target's HP.</td>
             </tr>
             <tr><td colspan="3">
               longdesc
@@ -394,8 +400,18 @@
             </tbody>
           </table>
           </div>
+        </div>
+      </article>
+
+      <article class="my-3" id="st_otherabilities">
+        <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+          <h3>Other abilities</h3>
+          <a class="d-flex align-items-center" href="https://na.finalfantasyxiv.com/jobguide/">Official jobguides</a>
+        </div>
+  
+        <div>
           <p class="display-3" id="group">OTHER GROUP ACTIONS</p>
-          <p class="display-5">ROLE ACTIONS</p>
+          <p class="display-5" id="roleac">ROLE ACTIONS</p>
           <div class="bd-example">
             <table class="table table-striped">
               <thead>
@@ -443,7 +459,7 @@
           </div>
 
       <div class="bd-example">
-        <p class="display-5">JOB SPECIFIC</p>
+        <p class="display-5" id="jobac">JOB SPECIFIC</p>
         <table class="table table-striped">
           <thead>
           <tr>
@@ -491,9 +507,71 @@
               <td><strong>Magick Barrier -</strong> shortdesc</td>
             </tr>
           </tbody>
-        </table>
+          </table>
+        </div>
+        <div class="bd-example">
+          <p class="display-5" id="tinvuln">TANK INVULNERABILITIES</p>
+          <table class="table table-striped">
+            <thead>
+            <tr>
+              <th scope="col">Visuals</th>
+              <th scope="col">Role</th>
+              <th scope="col">CD</th>
+              <th scope="col">Description</th>
+            </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><img src="img/invulns/holm.png"/><img src="img/invulns/holm_buff.png"/></th>
+                <td>Warrior</td>
+                <td>240s</td>
+                <td><strong>Holmgang -</strong> HP cannot go below 1 for 10s.</td>
+              </tr>
+              <tr><td colspan="4">
+                Very strong for its short cooldown, make sure you wait until half or most of the duration is expended before healing the Warrior, as Holmgang
+                does not reduce incoming damage and healing someone who can't die is wasteful. Usually, Warriors will use Equilibrium at the end of their Holmgang
+                for a very high self-heal before loosing their invulnerability status.
+              </td></tr>
+              <tr>
+                <th scope="row"><img src="img/invulns/ld.png"/><img src="img/invulns/ld_buff.png"/><img src="img/invulns/wd_buff.png"/></th>
+                <td>Dark Knight</td>
+                <td>300s</td>
+                <td><strong>Living dead -</strong> Lasts for 10s. Triggers <strong>Walking dead</strong> instead of KO if HP becomes 0 for the duration.<br/>
+                <strong>Walking dead -</strong> HP cannot go below 1 for 10s.</td>
+              </tr>
+              <tr><td colspan="4">
+                Living dead on the left, Walking dead on the right.<br/>
+                Unapologically the worse invulnerability in the game. To remove the effect of <strong>Walking dead</strong>, the Dark Knight needs to have recovered
+                the equivalent of 100% of their HP. If Walking dead is not removed when its timer resolves, the Dark Knight dies immediately.<br/>
+                In other words you and your co-healer have to heal the Dark Knight for the <strong>equivalent</strong> of their total HP.
+                This does not mean their current HP needs to be equal to their max HP; this means they need to be healed an amount superior or equal to their maximum HP.
+                Bear in mind that, once you heal the Dark Knight enough, they will lose Walking Dead and thus their invulnerability status. Hence if you heal your Dark Knight
+                too much too quickly and dispell Walking Dead before their intended use for it is over, you will kill them.<br>
+                The White Mage, however, can simply discard their Benediction and resolve the situation at their leisure.
+              </td></tr>
+              <tr>
+                <th scope="row"><img src="img/invulns/sb.png"/><img src="img/invulns/sb_buff.png"/></th>
+                <td>Gunbreaker</td>
+                <td>360s</td>
+                <td><strong>Superbolide -</strong> HP becomes 1 and makes all incoming damage 0 for 10s.</td>
+              </tr>
+              <tr><td colspan="4">
+                Don't panic, you have 10s of free time by the end of which you should make sure they have enough hp to survive whatever comes next.
+              </td></tr>
+              <tr>
+                <th scope="row"><img src="img/invulns/hg.png"/><img src="img/invulns/hg_buff.png"/></th>
+                <td>Paladin</td>
+                <td>420s</td>
+                <td><strong>Hallowed ground -</strong> Makes all incoming damage 0 for 10s.</td>
+              </tr>
+              <tr><td colspan="4">
+                Forget about your Paladin for 10 seconds.
+              </td></tr>
+            </tbody>
+            </table>
+            <p>Note that invulnerabilites do not work on certain very specific damage instances. The most common ones are bosses' <em>enrage</em> damage.</p>
+          </div>
       </div>
-    </div>
     </article>
 
     <article class="my-3" id="st_how2heal">
@@ -557,7 +635,7 @@
         </div>
         <div class="bd-example">
           <p class="display-5" id="lx_raiddmg">Raid damage</p>
-          <p>A <em>Raid damage</em> describes unavoidable damage that will hit half of the party or more. Also commonly referred to as a "raid wide (AoE)".</p>
+          <p>A <em>Raid damage</em> describes unavoidable damage that will hit half of the party or more. Also commonly referred to as a "raid wide".</p>
         </div>
         <div class="bd-example">
           <p class="display-5" id="lx_tick">Tick</p>
@@ -576,7 +654,7 @@
         </div>
         <div class="bd-example">
           <p class="display-5" id="lx_gtaoe">Ground-targeted AoE</p>
-          <p>A <em>Ground-targeted AoE</em> is an ability that is casted on the ground, rather than on a target. It has a visual representation in space 
+          <p>A <em>Ground-targeted AoE</em> (area of effect) is an ability that is casted on the ground, rather than on a target. It has a visual representation in space 
             (often reffered to as "bubble") and only affects characters actively standing inside of them. The buff they grant is dynamically applied or removed
             as a character enters or exits the area for its duration.</p>
         </div>
@@ -597,6 +675,12 @@
           <p><em>Progress</em> refers to the learning process of a fight, by opposition to <em>clear</em>, the step in which the party knows the whole fights
           and simply needs to execute it correctly to beat it and <em>re-clears</em>, when the party already has cleared once or multiple times and is simply doing it again
           (also commonly refered to as "farm").</p>
+        </div>
+        <div class="bd-example">
+          <p class="display-5" id="lx_enrage">Enrage</p>
+          <p><em>Enrage</em> refers to the very last action(s) a boss will use before the encounter is over. Typically a raid damage hitting for more than 100 times
+          anyone's max HP and ignoring invulnerabilites, to make extra sure the encounter is over once it has been cast. An encounter's maximum duration is often
+          refered to as "enrage timer".</p>
         </div>
       </div>
     </article>
